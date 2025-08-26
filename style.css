@@ -435,6 +435,7 @@ button.whites {
   font-size: 22px;
   font-weight: 700;
   color: #ffff;
+  text-transform: capitalize;
 }
 
 #newsletter p {
@@ -471,4 +472,68 @@ button.whites {
 #newsletter .form {
   width: 40%;
   display: flex;
+}
+
+/* !Footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer .col {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  align-items: flex-start;
+}
+
+footer .logo {
+  margin-bottom: 30px;
+}
+
+footer h4 {
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+footer p {
+  font-size: 13px;
+  margin: 0px 0px 8px 0px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #222;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+footer .follow {
+  margin-top: 20px;
+}
+
+footer .follow i {
+  padding-right: 4px;
+  color: #465b52;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+footer .install .row img {
+  border: 1px solid #088178;
+  border-radius: 6px;
+}
+
+footer .install img {
+  margin: 10px 0 15px 0;
+}
+
+footer .follow i:hover,
+footer a:hover {
+  color: #088178;
+}
+
+footer .copywrite {
+  width: 100%;
+  text-align: center;
 }
