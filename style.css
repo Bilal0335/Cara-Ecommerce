@@ -270,6 +270,11 @@ body {
   bottom: 20px;
   right: 10px;
 }
+
+#product1 h2,
+p {
+  color: #000;
+}
 /* ! feature product end */
 
 /* ! Banner start */
@@ -680,4 +685,17 @@ footer .copywrite {
   footer .copywrite {
     text-align: start;
   }
+
+  /* Single Product */
+  /* #prodetails {
+    display: flex;
+    flex-direction: row;
+  }
+  #prodetails .single-pro-img {
+    width: 100%;
+    margin-right: 0;
+  }
+  #prodetails .single-pro-details {
+    width: 100%;
+  } */
 }
